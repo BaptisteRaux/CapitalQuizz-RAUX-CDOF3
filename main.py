@@ -3,13 +3,7 @@ import random
 def play_game():
     print("Welcome to the Game")
     print("")
-    
-    try:
-        number_questions = int(input("Choose the number of questions to answer: "))
-    except ValueError:
-        print("Please enter a valid number.")
-        return
-
+    number_questions = int(input("Choose the number of questions to answer: "))
     score = 0
     questions_list = get_questions()
     
@@ -31,8 +25,36 @@ def play_game():
 
 def get_questions():
     return {
-        "Baptiste?":"raux"
-
+        "Afrique du Sud": "Pretoria",
+        "Allemagne": "Berlin",
+        "Arabie Saoudite": "Riyad",
+        "Argentine": "Buenos Aires",
+        "Australie": "Canberra",
+        "Brésil": "Brasilia",
+        "Canada": "Ottawa",
+        "Chine": "Pékin",
+        "Corée du Sud": "Séoul",
+        "Égypte": "Le Caire",
+        "Espagne": "Madrid",
+        "États-Unis": "Washington",
+        "France": "Paris",
+        "Inde": "New Delhi",
+        "Indonésie": "Jakarta",
+        "Iran": "Téhéran",
+        "Italie": "Rome",
+        "Japon": "Tokyo",
+        "Kenya": "Nairobi",
+        "Mexique": "Mexico",
+        "Nigéria": "Abuja",
+        "Pakistan": "Islamabad",
+        "Pays-Bas": "Amsterdam",
+        "Philippines": "Manille",
+        "Royaume-Uni": "Londres",
+        "Russie": "Moscou",
+        "Thaïlande": "Bangkok",
+        "Turquie": "Ankara",
+        "Ukraine": "Kiev",
+        "Vietnam": "Hanoï",
     }
 
 def choose_random_question(questions_list):
