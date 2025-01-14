@@ -27,26 +27,33 @@ def play_game():
 
 def get_questions():
     return {
+        "Algeria":"Alger",
         "Argentina": "Buenos Aires",
         "Australia": "Canberra",
         "Brazil": "Brasilia",
         "Canada": "Ottawa",
+        "Chile":"Santiago",
         "China": "Beijing",
         "Colombia": "Bogota",
         "France": "Paris",
         "Germany": "Berlin",
+        "Ghana":"Accra",
         "Indonesia": "Jakarta",
         "Italy": "Rome",
         "Japan": "Tokyo",
         "Kenya": "Nairobi",
         "Mexico": "Mexico",
+        "Morocco":"Rabat",
+        "Nigeria":"Abuja",
         "Russia": "Moscow",
         "Spain": "Madrid",
         "Sweden": "Stockholm",
         "Thailand": "Bangkok",
+        "Tunisia":"Tunis",
         "Turkey": "Ankara",
         "United Kingdom": "London",
         "United States": "Washington",
+
     }
 
 def choose_random_question(questions_list,question_answered):
