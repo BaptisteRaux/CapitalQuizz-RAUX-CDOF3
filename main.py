@@ -13,7 +13,7 @@ def play_game():
         
         answer = input("Your answer: ").strip().lower()
         
-        if answer == correct_answer:
+        if answer == correct_answer.lower():
             print("Well answered!")
             score += 1
         else:
